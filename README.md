@@ -8,14 +8,13 @@ This Repository consists of a contract named function.sol written in Cadence, a 
 
 ## Getting Started
 ### Executing program
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+To run this program, you can use Flow Playboard at https://play.flow.com/
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., TokenContract.sol). Copy and paste the following code into the file:
 
 ```cadence
-   
-   pub contract Product {
-pub var infos : { Int  : Info }
+
+ pub contract Product
+ pub var infos : { Int  : Info }
 
 pub struct Info {
 pub let p_id : Int
